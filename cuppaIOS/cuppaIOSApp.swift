@@ -11,7 +11,7 @@ import SwiftUI
 struct cuppaIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InvestmentView()
         }
     }
 }
