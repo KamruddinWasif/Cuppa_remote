@@ -49,7 +49,7 @@
 		FADB7CDC29F6AF4100F28580 /* cuppaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuppaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADB7CDE29F6AF4100F28580 /* cuppaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuppaIOSUITests.swift; sourceTree = "<group>"; };
 		FADB7CE029F6AF4100F28580 /* cuppaIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuppaIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FAF30AB829F858CE00696425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAF30AB829F858CE00696425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
