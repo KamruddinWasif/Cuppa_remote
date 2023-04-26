@@ -49,6 +49,7 @@
 		FADB7CDC29F6AF4100F28580 /* cuppaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuppaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADB7CDE29F6AF4100F28580 /* cuppaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuppaIOSUITests.swift; sourceTree = "<group>"; };
 		FADB7CE029F6AF4100F28580 /* cuppaIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuppaIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAF30AB829F858CE00696425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		FA4D146129EC2A510074F759 /* cuppaIOS */ = {
 			isa = PBXGroup;
 			children = (
+				FAF30AB829F858CE00696425 /* Info.plist */,
 				FA4D146229EC2A510074F759 /* cuppaIOSApp.swift */,
 				FA4D146429EC2A510074F759 /* InvestmentView.swift */,
 				FA4D147029EC2AA00074F759 /* InvestmentCalculator.swift */,
@@ -368,11 +370,11 @@
 				DEVELOPMENT_TEAM = ST3PH6NUXB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cuppaIOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Cuppa;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -399,11 +401,11 @@
 				DEVELOPMENT_TEAM = ST3PH6NUXB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cuppaIOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Cuppa;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

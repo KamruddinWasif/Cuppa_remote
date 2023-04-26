@@ -81,6 +81,14 @@ struct InvestmentView: View {
         }
     }
     
+    func formatNumberWithCommas(_ value: Double) -> String {
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .decimal
+        numberFormatter.maximumFractionDigits = 2
+        numberFormatter.minimumFractionDigits = 2
+        return numberFormatter.string(from: NSNumber(value: value)) ?? ""
+    }
+
     func calculateFutureValue() {
         guard let initialDeposit = Double(initialDeposit),
               let periodicDeposit = Double(periodicDeposit),
@@ -98,7 +106,7 @@ struct InvestmentView: View {
             timeHorizon: timeHorizon
         )
         
-        self.futureValue = String(format: "$%.2f", futureValue)
+        self.futureValue = "$" + formatNumberWithCommas(futureValue)
     }
     }
 
