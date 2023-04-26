@@ -34,19 +34,19 @@ class InvestmentCalculatorUITests: XCTestCase {
     func testValidPositiveInputs() {
         inputValues(initialDeposit: "1000", periodicDeposit: "100", depositFrequency: "Monthly", interestRate: "5", compoundingFrequency: "Annually", timeHorizon: "5")
         
-        XCTAssertEqual(app.staticTexts["Future Value: $7907.04"].label, "Future Value: $7907.04")
+        XCTAssertEqual(app.staticTexts["Future Value: $7,907.04"].label, "Future Value: $7,907.04")
     }
     
     func testZeroInitialDeposit() {
         inputValues(initialDeposit: "0", periodicDeposit: "100", depositFrequency: "Monthly", interestRate: "5", compoundingFrequency: "Annually", timeHorizon: "5")
         
-        XCTAssertEqual(app.staticTexts["Future Value: $6630.76"].label, "Future Value: $6630.76")
+        XCTAssertEqual(app.staticTexts["Future Value: $6,630.76"].label, "Future Value: $6,630.76")
     }
     
     func testZeroPeriodicDeposit() {
         inputValues(initialDeposit: "1000", periodicDeposit: "0", depositFrequency: "Monthly", interestRate: "5", compoundingFrequency: "Annually", timeHorizon: "5")
         
-        XCTAssertEqual(app.staticTexts["Future Value: $1276.28"].label, "Future Value: $1276.28")
+        XCTAssertEqual(app.staticTexts["Future Value: $1,276.28"].label, "Future Value: $1,276.28")
     }
     
     func testNegativeInputs() {
