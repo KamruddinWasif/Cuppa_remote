@@ -77,7 +77,7 @@ struct InvestmentView: View {
                     }
                 }
             }
-            .navigationTitle("Investment Calculator")
+            .navigationTitle("Cuppa Calculator")
         }
     }
     
