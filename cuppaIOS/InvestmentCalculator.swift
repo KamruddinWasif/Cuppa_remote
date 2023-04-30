@@ -17,6 +17,7 @@ struct InvestmentCalculator {
         }
         
         return futureValueOfPrincipal + futureValueOfDeposits
+        
     }
 }
 
